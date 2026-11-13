@@ -15,23 +15,27 @@ This repository tracks notable **SaaS platforms** and **open-source projects** f
 Contributions welcome! Open an PR to add/update entries. Keep descriptions factual and link to official sites.
 
 ## Table of Contents
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
 - [SaaS/Hosted Platforms](#saas-products)
 - [Open-Source GitHub Projects](#open-source-github-projects)
 - [How to Contribute](#how-to-contribute)
 - [Disclaimer](#disclaimer)
 
+## Sector Overview & Market Dynamics
+
+The global digital document and e-book reader ecosystem encompasses dedicated e-reader hardware (valued at approximately $8.5B–$9.5B growing at ~6% CAGR) and the digital publishing/document software market valued at over $50B. The industry exhibits a bifurcated market structure: consumer hardware and commercial app distribution are highly concentrated around tech giants (Amazon Kindle, Apple, Rakuten Kobo, Adobe) with winner-take-most platform lock-in, while specialized productivity, local-first annotation, and open-source PDF/EPUB tooling remain moderately to highly fragmented across independent developers and privacy-focused open ecosystems.
+
 ## SaaS/Hosted Platforms
 
-| Product | Description | Pricing (Starting) | Free Tier / Trial Limits |
-|---------|-------------|-------------------|--------------------------|
-| **[Adobe Acrobat Reader DC](https://www.adobe.com/acrobat/pdf-reader.html)** | The default PDF reader for many users. Free version handles viewing and basic annotation; Pro adds editing, OCR, conversion, and cloud storage. **Increasingly criticized for bloat, background processes, and resource consumption** compared to lightweight alternatives . | Free (Reader); Pro: subscription-based | **Free**: PDF viewing, basic annotations, form filling |
-| **[Foxit PDF Reader](https://www.foxit.com/pdf-reader/)** | Lightweight PDF reader positioned as a faster alternative to Adobe. Free version supports viewing, annotation, and form filling; PhantomPDF adds editing and conversion. | Free (Reader); paid for advanced features | **Free**: PDF viewing, annotations, form filling |
-| **[Apple Books](https://www.apple.com/apple-books/)** | Apple's built-in e-book reader across macOS, iOS, and iPadOS. Syncs reading position via iCloud. Supports EPUB and PDF. | **Free** with Apple devices | **Free**: full reader functionality on Apple devices |
-| **[Kindle Cloud Reader](https://read.amazon.com/)** | Browser-based Kindle reader. Access your Kindle library from any modern browser without installing an app. | Free with Amazon account | **Free**: read purchased Kindle books in browser |
-| **[Kami](https://www.kamiapp.com/)** | Education-focused PDF annotation and collaboration tool. Teachers and students can annotate, comment, and collaborate on documents. | Free tier; paid for schools | **Free**: basic annotation and collaboration |
-| **[Kobo](https://www.kobo.com/)** | E-book ecosystem with apps for all platforms and dedicated e-readers. Purchase and read books across devices. | Free app; pay for books | **Free**: Kobo app for reading purchased books |
-| **[Readium](https://readium.org/)** | Open-source EPUB rendering engine and SDKs (not a consumer app). Powers many commercial reading apps. | Free (open-source) | **Free**: BSD-licensed SDKs for building reading apps |
-| **[PocketBook](https://pocketbook.ch/)** | E-reader ecosystem with apps and dedicated devices. Supports multiple formats and cloud sync. | Free app; pay for devices/books | **Free**: PocketBook app |
+| Product | Description | Company Valuation / Revenue | Pricing (Starting) | Free Tier / Trial Limits |
+|---------|-------------|----------------------------|-------------------|--------------------------|
+| **[Apple Books](https://www.apple.com/apple-books/)** | Apple's built-in e-book reader across macOS, iOS, and iPadOS. Syncs reading position via iCloud and supports EPUB/PDF reading. | ~$3.5T Market Cap / ~$391B Annual Revenue (Apple Inc.) | $0.00 (included with macOS/iOS devices; paid books individually priced) | **Free Forever**: Full reader features with unlimited personal EPUB/PDF imports; cloud sync limited by standard free 5GB iCloud storage tier |
+| **[Kindle Cloud Reader](https://read.amazon.com/)** | Web browser & cloud-based Kindle reading interface enabling instant library access without app installation. | ~$2.2T Market Cap / ~$575B Annual Revenue (Amazon.com, Inc.) | $11.99/month (Kindle Unlimited starting subscription; or a-la-carte book purchases) | **Free Forever**: Web reader is free to read purchased or free catalog books; 30-day free trial for Kindle Unlimited (up to 20 titles borrowed concurrently) |
+| **[Adobe Acrobat](https://www.adobe.com/acrobat/pdf-reader.html)** | Standard PDF viewer and cloud document platform with annotation, form-filling, OCR, and cloud storage. | ~$215B Market Cap / ~$19.4B Annual Revenue (Adobe Inc.) | $12.99/month (Acrobat Standard, billed annually) or $19.99/month (Acrobat Pro) | **Free Forever**: Acrobat Reader desktop/mobile enables viewing, basic annotation, commenting, and form filling; web tools include 7-day free trial for Pro features |
+| **[Kobo](https://www.kobo.com/)** | Global digital reading platform with cross-platform e-reader apps, cloud sync, and integrated digital bookstore. | ~$12B Market Cap / ~$14B Annual Revenue (Parent: Rakuten Group, Inc.) | $7.99/month (Kobo Plus Read eBook subscription; or per-title purchases) | **Free Forever**: Unlimited reading of sideloaded personal EPUB/PDF documents and public domain titles on free apps; 14-day free trial for Kobo Plus catalog |
+| **[Foxit PDF Reader](https://www.foxit.com/pdf-reader/)** | High-performance PDF viewing, commenting, and form-processing ecosystem built as a modular alternative to Adobe. | ~$900M Market Cap / ~$150M Annual Revenue (Foxit Software Inc., STAR: 688095) | $129.99/year (Foxit PDF Editor annual license) or $10.83/month billed annually | **Free Forever**: Foxit Reader allows viewing, basic note-taking, printing, and form-filling; full editor features available via a 14-day free trial |
+| **[Kami](https://www.kamiapp.com/)** | Cloud-based collaborative PDF annotation and interactive learning workspace designed for schools and teams. | ~$180M Valuation (NZD $300M+) / ~$22M Annual Revenue (Kami / Authentic Minds) | $149.00/year (Teacher Plan, single license) or $12.42/month | **Free Forever**: Basic Plan includes essential annotation tools (markup, highlights, text insertion) with Google Drive/OneDrive sync; premium LMS sync and audio comments locked behind 60-day teacher trial |
+| **[PocketBook Cloud](https://pocketbook.ch/)** | Digital reading and cross-device sync platform connecting mobile apps, web readers, and E Ink hardware. | ~$40M Estimated Annual Revenue (PocketBook International S.A., private) | $0.00 (free reading apps and cloud sync; books purchased individually from PocketBook shop) | **Free Forever**: Free account includes cloud sync of reading progress, notes, and up to 2GB free cloud storage for personal e-books (PDF, EPUB, MOBI) across 5 devices |
 
 ## Open-Source GitHub Projects
 
